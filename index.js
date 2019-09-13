@@ -1,7 +1,7 @@
 // Write your solution here!
 const app = "I don't do much."
 
-var kittens = ["Milo", "Otis", "Garfield"];
+let driver = ["Milo", "Otis", "Garfield"];
 
 function destructivelyAppendKitten(name){
   kittens.push(name)
