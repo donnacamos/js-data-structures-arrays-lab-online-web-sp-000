@@ -7,34 +7,34 @@ function destructivelyAppendDriver(name){
   drivers.push(name)
 }
 
-function destructivelyPrependKitten(name){
-  kittens.unshift(name)
+function destructivelyPrependDriver(name){
+  drivers.unshift(name)
 }
 
-function destructivelyRemoveLastKitten(){
-  kittens.pop()
+function destructivelyRemoveLastDriver(){
+  drivers.pop()
 }
 
-function destructivelyRemoveFirstKitten(){
-  kittens.shift()
+function destructivelyRemoveFirstDriver(){
+  drivers.shift()
 }
 
-function appendKitten(name){
-  var kitten = [...kittens, name];
-  return kitten;
+function appendDriver(name){
+  var driver = [...drivers, name];
+  return driver;
 }
 
-function prependKitten(name){
-  var kitten = [name, ...kittens];
-  return kitten;
+function prependDriver(name){
+  var driver = [name, ...drivers];
+  return driver;
 }
 
-function removeLastKitten(){
-  var kitten = kittens.slice(0, kittens.length - 1);
-  return kitten;
+function removeLastDriver(){
+  var driver = drivers.slice(0, drivers.length - 1);
+  return driver;
 }
 
-function removeFirstKitten(){
-  var kitten = kittens.slice(1);
-  return kitten;
+function removeFirstDriver(){
+  var driver = drivers.slice(1);
+  return driver;
 }
