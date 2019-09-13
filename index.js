@@ -3,8 +3,8 @@ const app = "I don't do much."
 
 let drivers = ["Milo", "Otis", "Garfield"];
 
-function destructivelyAppendKitten(name){
-  kittens.push(name)
+function destructivelyAppendDriver(name){
+  drivers.push(name)
 }
 
 function destructivelyPrependKitten(name){
